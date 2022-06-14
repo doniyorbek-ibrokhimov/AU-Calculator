@@ -1,0 +1,3 @@
+C:/Users/doniy/OneDrive/Desktop/Assignment Calculator/cmake-build-debug/CMakeFiles/Assignment_Calculator.dir
+C:/Users/doniy/OneDrive/Desktop/Assignment Calculator/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/doniy/OneDrive/Desktop/Assignment Calculator/cmake-build-debug/CMakeFiles/rebuild_cache.dir
