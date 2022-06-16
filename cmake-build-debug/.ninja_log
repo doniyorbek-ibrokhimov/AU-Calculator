@@ -1,0 +1,5 @@
+# ninja log v5
+3	384	6771113192265981	build.ninja	303bceda8609195c
+5	669	6771109427303076	CMakeFiles/Assignment_Calculator.dir/main.cpp.obj	f481332b374f675b
+6	528	6771111699813099	CMakeFiles/Assignment_Calculator.dir/exam_calculator.cpp.obj	391caa2365770e0b
+530	686	6771111701362380	Assignment_Calculator.exe	4eff8de84d16ae2e

@@ -10,4 +10,4 @@ add_executable(Assignment_Calculator
         .idea/vcs.xml
         .idea/workspace.xml
         main.cpp
-        README.md)
+        README.md exam_calculator.cpp exam_calculator.h assignment_calculator.cpp assignment_calculator.h)

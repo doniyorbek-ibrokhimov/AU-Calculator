@@ -1,0 +1,12 @@
+//
+// Created by  on 17/06/2022.
+//
+
+#ifndef ASSIGNMENT_CALCULATOR_ASSIGNMENT_CALCULATOR_H
+#define ASSIGNMENT_CALCULATOR_ASSIGNMENT_CALCULATOR_H
+
+#include "exam_calculator.h"
+
+void assignment_calculator();
+
+#endif //ASSIGNMENT_CALCULATOR_ASSIGNMENT_CALCULATOR_H
