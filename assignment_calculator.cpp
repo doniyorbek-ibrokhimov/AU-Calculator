@@ -10,32 +10,38 @@ void assignment_calculator() {
          << "Please use it correctly and follow the instructions otherwise it will not work\n";
 
     // Determining the quotient of assignments
-    float assignment_percent{0};
+
     cout << "Enter the max percent that you can get from assignments (only NUMBER) ->";
-    cin >> assignment_percent;
+    string str_assignment_percent;
+    cin >> str_assignment_percent;
+    float assignment_percent = stof(str_assignment_percent);
     cout << '\n';
 
     // Knowing the number of assignments
-    int num_of_assignments{0};
     cout << "Enter the number of assignments you have (only NUMBER) ->";
-    cin >> num_of_assignments;
+    string str_num_of_assignments;
+    cin >> str_num_of_assignments;
+    int num_of_assignments = stoi(str_num_of_assignments);
     cout << '\n';
 
     // Storing all assignment scores
     storing:
     cout << "Enter your score from assignments\n";
+
     vector<float> assignment_scores;
-    float temp_score{0};
-    float temp_max_score{0};
+    string str_temp_score;
+    string str_temp_max_score;
     vector<float> max_assignment_scores;
 
     for (int i = 1; i <= num_of_assignments; i++) {
         mini_storing:
         cout << "Enter assignment " << i << " score (only NUMBER) ->";
-        cin >> temp_score;
+        cin >> str_temp_score;
+        float temp_score = stof(str_temp_score);
 
         cout << "Enter the max point you can have from assignment " << i << " (only NUMBER) ->";
-        cin >> temp_max_score;
+        cin >> str_temp_max_score;
+        float temp_max_score = stof(str_temp_max_score);
         cout << '\n';
 
         if (temp_max_score >= temp_score) {
@@ -67,18 +73,32 @@ void assignment_calculator() {
     cout << "Is it right? (Enter only YES or NO) ->";
     string checkpoint;
     cin >> checkpoint;
-    if (checkpoint == "NO") goto storing;
 
-    // Calculating the total score
-    float total_score{0};
-    for (auto l: assignment_scores) total_score += l;
+    vector<char> vec_checkpoint;
+    string upper_checkpoint;
+    for (int i = 0; i < checkpoint.size(); i++) {
+        vec_checkpoint.push_back(checkpoint[i]);
+        vec_checkpoint[i] -= 32;
+        upper_checkpoint += vec_checkpoint[i];
+    }
 
-    // Calculating the max total score
-    float max_total_score{0};
-    for (auto m: max_assignment_scores) max_total_score += m;
+    if (upper_checkpoint == "NO") {
+        goto storing;
+    } else if (upper_checkpoint == "YES") {
 
-    float answer{0};
-    answer = (assignment_percent * total_score) / max_total_score;
-    cout << "Your final score from all assignments is: " << answer << '\n'
-         << "Thank you :)" << '\n';
+        // Calculating the total score
+        float total_score{0};
+        for (auto l: assignment_scores) total_score += l;
+
+        // Calculating the max total score
+        float max_total_score{0};
+        for (auto m: max_assignment_scores) max_total_score += m;
+
+        float answer{0};
+        answer = (assignment_percent * total_score) / max_total_score;
+        cout << "Your final score from all assignments is: " << answer << '\n'
+             << "Thank you :)" << '\n';
+    } else {
+        cout << "Please enter the correct response (yes or no)";
+    }
 }

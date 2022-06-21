@@ -8,18 +8,22 @@ void exam_calculator(){
     // Getting max midterm percentage
     cout << "This is exam calculator!\n"
          << "What percent can you get max from exam? ->";
-    float max_exam_percentage{0};
-    cin >> max_exam_percentage;
+    string str_max_exam_percentage;
+    cin >> str_max_exam_percentage;
+    float max_exam_percentage = stof(str_max_exam_percentage);
+
 
     // Getting max midterm score
     cout << "How much score can you get max from exam? ->";
-    float max_exam_score{0};
-    cin >> max_exam_score;
+    string str_max_exam_score;
+    cin >> str_max_exam_score;
+    float max_exam_score = stof(str_max_exam_score);
 
     // Getting collected score from midterm exam
     cout << "Enter your score that you got from exam ->";
+    string str_exam_score;
+    cin >> str_exam_score;
     float exam_score{0};
-    cin >> exam_score;
 
     /*
      * 100 point(max_exam_score) - 40 %(max_exam_percentage)
