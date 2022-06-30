@@ -1,0 +1,14 @@
+D:\Coding\VS\C#\Projects\AU-Calculator\AU-Calculator\bin\Debug\netcoreapp3.1\AU-Calculator.exe
+D:\Coding\VS\C#\Projects\AU-Calculator\AU-Calculator\bin\Debug\netcoreapp3.1\AU-Calculator.deps.json
+D:\Coding\VS\C#\Projects\AU-Calculator\AU-Calculator\bin\Debug\netcoreapp3.1\AU-Calculator.runtimeconfig.json
+D:\Coding\VS\C#\Projects\AU-Calculator\AU-Calculator\bin\Debug\netcoreapp3.1\AU-Calculator.runtimeconfig.dev.json
+D:\Coding\VS\C#\Projects\AU-Calculator\AU-Calculator\bin\Debug\netcoreapp3.1\AU-Calculator.dll
+D:\Coding\VS\C#\Projects\AU-Calculator\AU-Calculator\bin\Debug\netcoreapp3.1\AU-Calculator.pdb
+D:\Coding\VS\C#\Projects\AU-Calculator\AU-Calculator\obj\Debug\netcoreapp3.1\AU-Calculator.csproj.AssemblyReference.cache
+D:\Coding\VS\C#\Projects\AU-Calculator\AU-Calculator\obj\Debug\netcoreapp3.1\AU-Calculator.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\VS\C#\Projects\AU-Calculator\AU-Calculator\obj\Debug\netcoreapp3.1\AU-Calculator.AssemblyInfoInputs.cache
+D:\Coding\VS\C#\Projects\AU-Calculator\AU-Calculator\obj\Debug\netcoreapp3.1\AU-Calculator.AssemblyInfo.cs
+D:\Coding\VS\C#\Projects\AU-Calculator\AU-Calculator\obj\Debug\netcoreapp3.1\AU-Calculator.csproj.CoreCompileInputs.cache
+D:\Coding\VS\C#\Projects\AU-Calculator\AU-Calculator\obj\Debug\netcoreapp3.1\AU-Calculator.dll
+D:\Coding\VS\C#\Projects\AU-Calculator\AU-Calculator\obj\Debug\netcoreapp3.1\AU-Calculator.pdb
+D:\Coding\VS\C#\Projects\AU-Calculator\AU-Calculator\obj\Debug\netcoreapp3.1\AU-Calculator.genruntimeconfig.cache
